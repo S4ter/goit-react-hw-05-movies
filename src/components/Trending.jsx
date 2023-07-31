@@ -1,7 +1,7 @@
 export const Trending = () => {
   return (
     <div>
-      <p>Trending</p>
+      <p>Trending list</p>
     </div>
   );
 };
