@@ -1,6 +1,6 @@
 import { fetchImages } from 'api/MovieApi';
 import { useEffect, useState } from 'react';
-import { Link, NavLink, Outlet, useParams } from 'react-router-dom';
+import { NavLink, Outlet, useParams } from 'react-router-dom';
 import './MovieInfo.css';
 
 const MovieInfo = () => {
