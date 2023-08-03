@@ -1,18 +1,21 @@
-import { Suspense } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
+import './CommonLayout.css';
 
 export const CommonLayout = () => {
   return (
     <div>
-      <header>
-        <div>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/movies">Movies</NavLink>
+      <header className="header">
+        <div className="navigation_containter">
+          <NavLink className={'navigation_link'} to="/">
+            Home
+          </NavLink>
+          <NavLink className={'navigation_link'} to="/movies">
+            Movies
+          </NavLink>
         </div>
       </header>
-      <Suspense fallback={<div>Loading page...</div>}>
-        <Outlet />
-      </Suspense>
+
+      <Outlet />
     </div>
   );
 };

@@ -1,0 +1,19 @@
+.header {
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+.navigation_containter {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.navigation_link {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+}
+.navigation_link.active {
+  color: grey;
+  text-decoration: underline;
+}

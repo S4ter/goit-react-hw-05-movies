@@ -1,0 +1,14 @@
+.trending_header {
+  padding-left: 10px;
+}
+
+.trending_list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: decimal;
+  font-weight: 500;
+}
+.trending_item {
+  color: black;
+}
